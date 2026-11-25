@@ -1,0 +1,13 @@
+name: "astrbot_plugin_dnf_gold"
+display_name: "DNF 金币行情"
+author: "Tonagi"
+version: "1.1.0"
+desc: "发送 /查询金价，按跨区（跨一~跨八）返回 uu898 上 DNF 游戏币的实时最优比例（1 元 = X 万金币）。dd373 已被滑块验证拦死，故换源。"
+repo: "https://github.com/TonagiS/astrbot_plugin_dnf_gold"
+astrbot_version: ">=4.24.0"
+support_platforms:
+  - aiocqhttp
+tags:
+  - dnf
+  - 行情
+  - 查询

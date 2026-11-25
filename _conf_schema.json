@@ -1,0 +1,20 @@
+{
+  "groups": {
+    "description": "生效的群号（留空=所有群）",
+    "type": "list",
+    "default": [],
+    "items": {
+      "type": "string"
+    }
+  },
+  "cache_seconds": {
+    "description": "数据缓存秒数（一轮要抓 28 个大区页，别太勤）",
+    "type": "int",
+    "default": 180
+  },
+  "cooldown_seconds": {
+    "description": "同一个群两次查询的最小间隔（秒）",
+    "type": "int",
+    "default": 120
+  }
+}
